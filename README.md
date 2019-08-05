@@ -4,7 +4,7 @@ The task is to restate a thesis and redo the experiment following the instructio
 
 Description
 ----
-Worked under the supervision of Associate Professor [Lin Chen](https://scholar.google.com/citations?user=Vxi9eakAAAAJ&hl=zh-CN) in [Pervasive Computing Lab](http://percom.zju.edu.cn/index-en.html) to implement a spatio temporal-multi-graphconvolution
+Worked under the supervision of Associate Professor [Ling Chen](https://scholar.google.com/citations?user=Vxi9eakAAAAJ&hl=zh-CN) in [Pervasive Computing Lab](http://percom.zju.edu.cn/index-en.html) to implement a spatio temporal-multi-graphconvolution
 network using Tensorflow for ride-hailing demands forecasting. <br> 
 Packages and methods used: Tensorflow(1.14), LSTM(one-way, 3 layers), GCN(Chevb-net) 
 
