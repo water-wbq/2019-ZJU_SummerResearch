@@ -1,4 +1,4 @@
-2019ZJU_SummerCamp
+2019ZJU_SummerResearch
 ====
 The task is to restate a thesis and redo the experiment following the instructions in the paper.
 
