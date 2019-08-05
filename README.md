@@ -41,5 +41,5 @@ Ref:
 5.[Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering](https://arxiv.org/pdf/1606.09375.pdf)
 
 ### Code Ref:
-1.[STGCN_IJCAI-18](https://github.com/VeritasYin/STGCN_IJCAI-18)
+1.[STGCN_IJCAI-18](https://github.com/VeritasYin/STGCN_IJCAI-18) <br>
 2.[T-GCN](T-GCN)
