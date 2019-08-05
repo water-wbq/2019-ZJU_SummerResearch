@@ -15,7 +15,7 @@ import csv
 reload(sys)
 sys.setdefaultencoding('utf8')
 
-PATH = './OriginalData'
+PATH = '../OriginalData'
 
 def count_poi (List1):
     vector = []

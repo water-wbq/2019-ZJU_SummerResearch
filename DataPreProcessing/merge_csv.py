@@ -3,7 +3,7 @@ import os
 import numpy as np
 import pandas as pd
 
-PATH = './OriginalData/30Points40DaysDemand'
+PATH = '../OriginalData/30Points40DaysDemand'
 
 array = []
 file = []
@@ -17,8 +17,8 @@ for f in file:
     data = data_per_day.values.tolist()
     array.extend(data)
 df = pd.DataFrame(array)
-# will not be ordered !!!!!
-df.to_csv('./data/data.csv')
+# may not be ordered !!!!!
+df.to_csv('../data/data.csv')
 
 
 

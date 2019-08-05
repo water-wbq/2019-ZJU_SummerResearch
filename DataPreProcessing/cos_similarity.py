@@ -3,7 +3,7 @@ import os
 import numpy as np
 import pandas as pd
 
-PATH = './Data'
+PATH = '../OriginalData'
 poi_30_path = os.path.join(PATH, "poi_30.csv")
 
 def cos_similarity(vector1, vector2):

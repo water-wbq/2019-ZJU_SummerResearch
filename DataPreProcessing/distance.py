@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-distance_path = './OriginalData/30PointsDistance.csv'
+distance_path = '../OriginalData/30PointsDistance.csv'
 
 
 def weight_matrix(file_path, sigma2=0.1, epsilon=0.5, scaling=True):
@@ -36,4 +36,4 @@ plt.colorbar()
 plt.show()
 
 df = pd.DataFrame(w)
-df.to_csv('/Users/mac/Desktop/materials/data/dis_weight.csv')
+df.to_csv('../data/dis_weight.csv')

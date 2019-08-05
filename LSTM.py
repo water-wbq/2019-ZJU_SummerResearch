@@ -24,7 +24,7 @@ def get_batch(data, seq_length, batch_vol):
 
 
 # load dataset
-dataset = pd.read_csv('/Users/mac/Desktop/materials/data/data.csv', header=None, index_col=None)
+dataset = pd.read_csv('data/data.csv', header=None, index_col=None)
 values = dataset.values.astype('float64')
 
 # normalize features
@@ -69,11 +69,11 @@ rmse = sqrt(mean_squared_error(inv_yhat, inv_test_Y))
 print('Test RMSE: %.3f' % rmse)
 
 y_val_table = pd.DataFrame(inv_test_Y)
-y_val_table.to_csv('/Users/mac/Desktop/materials/data/y_val_table.csv', index=False)
+y_val_table.to_csv('data/y_val_table.csv', index=False)
 y_pred_table = pd.DataFrame(inv_yhat)
 y_pred_table.round(decimals=0)
 y_pred_table[y_pred_table < 0] = 0
-y_pred_table.to_csv('/Users/mac/Desktop/materials/data/y_pred_table.csv', index=False)
+y_pred_table.to_csv('data/y_pred_table.csv', index=False)
 
 rmse = sqrt(mean_squared_error(y_val_table, y_pred_table))
 print('Test RMSE: %.3f' % rmse)
