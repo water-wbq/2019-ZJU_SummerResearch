@@ -25,19 +25,14 @@ For the contribution:
 
 Tools:
 ---
-### PC
+#### PC
 MacBook Air (13-inch, Early 2014)
-### Python
+#### Python
 Python 2.7
-### PyCharm
+#### PyCharm
 PyCharm 2019.1.3, build PC-191.7479.30. Copyright JetBrains s.r.o., (c) 2000-2019
-### Python library
-Tensorflow 1.14, 
-keras 2.2.4, 
-sklearn 0.20.3
-Numpy 1.16.4, 
-Pandas 0.24.2, 
-matplotlib 2.2.4
+#### Python library
+Tensorflow 1.14, keras 2.2.4, sklearn 0.20.3, Numpy 1.16.4, Pandas 0.24.2, Matplotlib 2.2.4
 
 
 Results:
