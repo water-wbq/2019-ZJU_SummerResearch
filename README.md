@@ -10,12 +10,17 @@ Packages and methods used: Tensorflow(1.14), LSTM(one-way, 3 layers), GCN(Chevb-
 
 Paper:
 ----
-[Spatiotemporal Multi-Graph Convolution Network for Ride-hailing Demand Forecasting （Xu Geng, Yaguang Li, etc)](http://www-scf.usc.edu/~yaguang/papers/aaai19_multi_graph_convolution.pdf)
+[Spatiotemporal Multi-Graph Convolution Network for Ride-hailing Demand Forecasting （Xu Geng, Yaguang Li, etc)](http://www-scf.usc.edu/~yaguang/papers/aaai19_multi_graph_convolution.pdf) <br>
+
+*Identified its unique spatiotemporal correlation 
+*A novel deep learning based model which encoded the non-Euclidean correlations among regions using multiple graphs and explicitly captured them using multi-graph convolution 
+*Further augmented the recurrent neural network with contextual gating mechanism to incorporate global contextual information in the temporal modeling procedure 
+
 
 Ref:
 ----
 ### Paper Ref:
-1.[Semi-supervised classification with graph convolutional networks (Thomas N. Kipf, etc)] (https://arxiv.org/pdf/1609.02907.pdf)<br> 
+1.[Semi-supervised classification with graph convolutional networks (Thomas N. Kipf, etc)](https://arxiv.org/pdf/1609.02907.pdf)<br> 
 2.[Spaio-temporal graph convolutional networks: A deep learning Framework for traffic forecasting (Bing Yu, etc)](https://arxiv.org/pdf/1709.04875.pdf)<br> 
 3.[Diffusion convolutional recurrent neural network: data-driven traffic forecasting (Yaguang Li, etc)](https://arxiv.org/pdf/1707.01926.pdf)<br> 
 4.[Spatiotemporal Multi-Graph Convolution Network for Ride-hailing Demand Forecasting （Xu Geng, Yaguang Li, etc)](http://www-scf.usc.edu/~yaguang/papers/aaai19_multi_graph_convolution.pdf)<br> 
