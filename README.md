@@ -12,9 +12,9 @@ Paper:
 ----
 [Spatiotemporal Multi-Graph Convolution Network for Ride-hailing Demand Forecasting （Xu Geng, Yaguang Li, etc)](http://www-scf.usc.edu/~yaguang/papers/aaai19_multi_graph_convolution.pdf) <br>
 
-*Identified its unique spatiotemporal correlation 
-*A novel deep learning based model which encoded the non-Euclidean correlations among regions using multiple graphs and explicitly captured them using multi-graph convolution 
-*Further augmented the recurrent neural network with contextual gating mechanism to incorporate global contextual information in the temporal modeling procedure 
+* Identified its unique spatiotemporal correlation 
+* A novel deep learning based model which encoded the non-Euclidean correlations among regions using multiple graphs and explicitly captured them using multi-graph convolution 
+* Further augmented the recurrent neural network with contextual gating mechanism to incorporate global contextual information in the temporal modeling procedure 
 
 
 Ref:
