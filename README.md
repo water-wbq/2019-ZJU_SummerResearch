@@ -14,9 +14,13 @@ Paper:
 
 ### Literature review
 This paper proposes a novel deep learning model named the spatiotemporal multi-graph convolution network (ST-MGCN) for better region-level ride-hailing demand forecasting. And the network focus more on non-Euclidean pair-wise correlations among distant regions rather than Euclidean correlations as many previous researches. <br>
+<br>
 The challenges in this research are from complex spatial and temporal correlations. On the one hand, complicated dependencies are observed among different regions. On the other hand, non-linear dependencies also exist among different temporal observations. <br>
+<br>
 To address these challenges, the team firstly encodes the non-Euclidean correlations like the neighborhood, functional similarity and transportation connectivity among regions into multiple graphs. And then, for each graph, the researchers use contextual gated recurrent neural network which augments recurrent neural network with a contextual-aware gating mechanism to re-weights different historical observations. After that, the researchers further leverage the multi-graph convolution to explicitly model these correlations. And Finally, a fully connected neural network is used to transform features into the prediction. <br>
+<br>
 For the evaluation, the team evaluates the proposed model on two real-world large scale ride-hailing demand datasets and observes consistent improvement of more than 10% over state- of-the-art baselines. <br>
+<br>
 For the contribution: 
 * Identified its unique spatiotemporal correlation 
 * A novel deep learning based model which encoded the non-Euclidean correlations among regions using multiple graphs and explicitly captured them using multi-graph convolution 
